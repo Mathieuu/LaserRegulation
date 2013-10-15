@@ -7,7 +7,7 @@ Java application controlling the laser power of a confocal microscope.
 
 To run the demo version, just launch Regulation-Demo-Mode.jar. This file needs backup.ml0 and the folders: images, L1 and L2 in same folder in order to work properly.
 
-Only the Java application is available on download. If you are interested in the Arduino program, please contact me through my [website]{www.mathieusavy.com}.
+Only the Java application is available on download. If you are interested in the Arduino program or any technical detail, please contact me directly.
 
 This version has been modified for demo purpose. The code portion in charge of the communication with the Arduino device has been disabled. To try the application in real conditions, uncomment lines in Regulation.java and each method in Communication.java. Since Communication.java uses a low level library to manipulate the serial port, the real software can only be used with Window.
 
